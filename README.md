@@ -7,7 +7,7 @@ BIU Intro to OOP Java CheckStyle shortcut installer
 curl -s https://raw.githubusercontent.com/ClovisIRex/CheckStyle/master/install.sh | bash
 `
 
-After restaring the shell you will able to execute checkstyle on a .java file with the `checkstyle` command (defaults to bash).
+After restaring the shell you will able to execute checkstyle on a .java file with the `checkStyle` command (defaults to bash).
 
 for a different shell, zsh for example you can run:
 
