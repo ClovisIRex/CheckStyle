@@ -7,7 +7,7 @@ BIU Intro to OOP Java CheckStyle shortcut installer
 curl -s https://raw.githubusercontent.com/ClovisIRex/CheckStyle/master/install.sh | bash
 `
 
-After restaring the shell you will able to get the rundown with the `checkstyle` command (defaults to bash).
+After restaring the shell you will able to execute checkstyle on a .java file with the `checkstyle` command (defaults to bash).
 
 for a different shell, zsh for example you can run:
 
@@ -16,4 +16,4 @@ curl -s https://raw.githubusercontent.com/ClovisIRex/CheckStyle/master/install.s
 `
 
 # Note
-This POSIX shell script has been tested on macOs Mojave 10.14.6. it should work on other platforms(e.g Linux) but I can't guarantee it.
+This POSIX shell script has been tested on macOs Mojave 10.14.6. It should work on other platforms(e.g Linux) but I can't guarantee it.
