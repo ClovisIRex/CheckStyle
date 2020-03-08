@@ -1,11 +1,13 @@
 #! /bin/bash
 
 cd ~
-curl https://raw.githubusercontent.com/ClovisIRex/CheckStyle/master/checkstyle.sh -O
-chmod +x ./checkstyle.sh
-mkdir -p ~/tmp/checkstyle
-mv ./checkstyle.sh ~/tmp/checkstyle/
+curl https://github.com/kleinay/biuoop2020/wiki/data/checkstyle/checkstyle-5.7-all.jar -O
+curl https://raw.githubusercontent.com/wiki/kleinay/biuoop2020/data/checkstyle/biuoop.xml -O
 
+chmod +x ./checkstyle-5.7-all.jar
+mkdir -p ~/tmp/checkstyle
+mv ./checkstyle-5.7-all.jar ~/tmp/checkstyle/
+mv ./biuoop.xml ~/tmp/checkstyle/
 
 
 if [ $# -eq 0 ]
@@ -16,4 +18,4 @@ if [ $# -eq 0 ]
 fi
 
 
-echo "alias checkStyle="~/tmp/checkstyle/checkstyle.sh"" >> $RC_FILE
+echo "alias checkStyle="java -jar ~/tmp/checkstyle/checkstyle-5.7-all.jar -c ~/tmp/checkstyle/biuoop.xml "" >> $RC_FILE
