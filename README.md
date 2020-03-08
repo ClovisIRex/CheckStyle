@@ -16,4 +16,4 @@ curl -s https://raw.githubusercontent.com/ClovisIRex/CheckStyle/master/install.s
 `
 
 # Note
-This POSIX shell script has been tested on macOs Mojave 10.14.6. It should work on other platforms(e.g Linux) but I can't guarantee it.
+This POSIX shell script has been tested on macOS Mojave 10.14.6. It should work on other platforms(e.g Linux) but I can't guarantee it.
